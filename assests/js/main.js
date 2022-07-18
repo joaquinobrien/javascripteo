@@ -60,3 +60,21 @@ function validar() {
     }
 
 }
+
+let navbar = document.getElementsByClassName("navbar");
+console.log(navbar[0].innerHTML);
+console.log(navbar[1].innerHTML);
+console.log(navbar[2].innerHTML);
+
+
+
+
+let body = document.getElementById("grid-container");
+let header = document.getElementById("header");
+let main = document.getElementById("FORMULARIO");
+let oferta = document.getElementById("EJEMPLO");
+console.log(body.innerHTML);
+console.log(header.innerHTML);
+console.log(navbar.innerHTML);
+console.log(main.innerHTML);
+console.log(EJEMPLO.innerHTML);
